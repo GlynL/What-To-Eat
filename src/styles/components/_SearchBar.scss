@@ -1,0 +1,19 @@
+.search-bar {
+  display: flex;
+}
+.search-bar__input {
+  border: 1px solid $dark-green;
+  border-right: none;
+  // border: none;
+  background: $light-green;
+  color: inherit;
+  flex: 1;
+  padding: 5px 5px 5px 5%;
+}
+
+.search-bar__form {
+  display: flex;
+  width: 100%;
+  background: $light-green;
+  margin-top: 10px;
+}

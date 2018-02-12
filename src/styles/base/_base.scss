@@ -1,0 +1,50 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: $neutral;
+  color: $dark-green;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: $dark-green;
+  background-image: linear-gradient(to right, $med-green, $dark-green, $med-green);
+}
+
+::placeholder {
+  color: $dark-green;
+  opacity: 1; /* firefox */
+}
+
+.container {
+  margin: 0 5%;
+  background: $med-green;
+  border-radius: 4px;
+  // box-shadow: 2px 2px 2px lighten($med-green, 20%), -2px -2px 2px lighten($med-green, 20%);
+}
+
+.btn {
+  background: $light-green;
+  border: 1px solid $dark-green;
+  color: inherit;
+  padding: 3px 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: $dark-green;
+  color: $light-green;
+}
+
+.btn--rounded-right {
+  border-radius: 0 3px 3px 0;
+}
+
+.btn--rounded-left {
+  border-radius: 3px 0 0 3px;
+}

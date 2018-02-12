@@ -1,0 +1,12 @@
+.recipe-list__links{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-list__img {
+  border: 2px solid $dark-green;
+  border-radius: 4px;
+  height: 200px;
+  margin-top: 10px;
+  width: 100%;
+}
